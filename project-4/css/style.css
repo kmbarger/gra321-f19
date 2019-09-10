@@ -1,0 +1,27 @@
+/*styles for project 4*/
+
+body {
+    font-family: noto-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    background-color: black;
+    color: white;
+    
+    width: 70vw;
+    padding: 5%;
+    
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+img {
+    width: 70vw;
+    padding: 5%;
+}
+a {
+    text-decoration: none;
+    color: white;
+    
+    border: solid white 2px;
+    padding: 1%;
+}
