@@ -1,0 +1,27 @@
+/* stylesheet for project 5*/
+
+body {
+    font-family: noto-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    width: 90vw;
+}
+
+img {
+    width: 50vw;
+    float: left;
+    padding-right: 20px;
+}
+
+#page-text {
+    padding-bottom: 50px;
+}
+
+#return {
+    font-weight: 600;
+}
+#return a {
+    text-decoration: none;
+    color: black;
+}
