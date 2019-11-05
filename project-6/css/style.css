@@ -108,7 +108,7 @@ html, body{
 .toggle-box + label:before {
 	position:relative;
 	content:"\f0fe";
-	font-family:FontAwesome;
+	font-family:'FontAwesome';
 	top:0;
 	right:2vw;
 	color:black;
@@ -130,99 +130,16 @@ html, body{
 /*******DRINKS*******/
 
 
-
-/*DRINK MENU*/
-/*
-.hot-drinks li{
-    font-size: 4vw;
-    line-height: 1.6;
-    list-style-type: none;
-    padding-left: 8vw;
-}
-.iced-drinks li{
-    font-size: 4vw;
-    line-height: 1.6;
-    list-style-type: none;
-    padding-left: 8vw;
-}
-.additions li{
-    font-size: 4vw;
-    line-height: 1.6;
-    list-style-type: none;
-    padding-left: 8vw;
-}*/
-
 /*******FOOD*******/
 
 /*FOOD MENU*/
-/*
-.paninis li{
-    font-size: 4vw;
-    line-height: 1.6;
-    list-style-type: none;
-    padding-left: 8vw;
-}*/
+
 #panini{
     font-weight: bold;
 }
 #panini p{
     font-weight: normal;
 }
-/*
-.pastries li{
-    font-size: 4vw;
-    line-height: 1.6;
-    list-style-type: none;
-    padding-left: 8vw;
-}
-.rice-bowl li{
-    font-size: 4vw;
-    line-height: 1.6;
-    list-style-type: none;
-    padding-left: 8vw;
-}
-.dessert li{
-    font-size: 4vw;
-    line-height: 1.6;
-    list-style-type: none;
-    padding-left: 8vw;
-}
-.snacks li{
-    font-size: 4vw;
-    line-height: 1.6;
-    list-style-type: none;
-    padding-left: 8vw;
-}*/
-
-/******SCROLL TEXT******/
-
-/*
-.hours li{
-    font-size: 4vw;
-    line-height: 1.6;
-    list-style-type: none;
-    padding-left: 8vw;
-}*/
-
-/*
-.footer {
-	font-family:FontAwesome;
-    text-align: center;
-    font-style: normal;
-    padding-top: 4vw;
-    padding-bottom: 10vw;
-    letter-spacing: 2vw;
-}
-.footer .fab{
-    color:black;
-    background-color: white;
-    font-size: 10vw;
-}
-.footer .fas{
-    color:black;
-    background-color: white;
-    font-size: 10vw;
-}*/
 
 .closing-text{
     font-size: 4vw;
