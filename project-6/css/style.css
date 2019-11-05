@@ -16,17 +16,6 @@ html, body{
     width: 100%;
     z-index: 1;
 }
-.navbar h1{
-    font-size: 3vw;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: black;
-    float: left;
-}
-.navbar img{
-    width: 6vw;
-    float: right;
-}
 .navbar img:hover {
   animation: shake 1s;
   animation-iteration-count: infinite;
@@ -168,6 +157,19 @@ html, body{
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+      /*navbar size*/
+      .navbar h1{
+        font-size: 6vw;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: black;
+        float: left;
+      }
+      .navbar img{
+        width: 9vw;
+        float: right;
+      }
+      
       li{
         font-size: 4vw;
         line-height: 1.6;
@@ -187,6 +189,19 @@ html, body{
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
+      /*navbar size*/
+      .navbar h1{
+        font-size: 5vw;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: black;
+        float: left;
+      }
+      .navbar img{
+        width: 8vw;
+        float: right;
+      }
+      
       li{
         font-size: 4vw;
         line-height: 1.6;
@@ -205,6 +220,20 @@ html, body{
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+      /*navbar size*/
+      .navbar h1{
+        font-size: 3vw;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: black;
+        float: left;
+      }
+      .navbar img{
+        width: 6vw;
+        float: right;
+      }
+      
+      /*list items*/
       li{
         font-size: 4vw;
         line-height: 1.6;
@@ -221,6 +250,19 @@ html, body{
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
+      /*navbar size*/
+      .navbar h1{
+        font-size: 3vw;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: black;
+        float: left;
+      }
+      .navbar img{
+        width: 6vw;
+        float: right;
+      }
+      
       li{
         font-size: 4vw;
         line-height: 1.6;
