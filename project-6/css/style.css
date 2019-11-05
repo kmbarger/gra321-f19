@@ -96,15 +96,16 @@ html, body{
 
 .toggle-box + label:before {
 	position:relative;
-	content:"\f0fe";
+	content:"\f067";
 	font-family:'FontAwesome';
+    text-rendering: optimizeLegibility;
 	top:0;
 	right:2vw;
 	color:black;
     background-color: white;
 }
 .toggle-box:checked + label {color:black;}
-.toggle-box:checked + label:before {content:"\f146";}
+.toggle-box:checked + label:before {content:"\f067";}
 
 /* General */
 *, *:before, *:after {
