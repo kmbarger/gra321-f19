@@ -138,11 +138,10 @@ html, body{
     padding-bottom: 5vw;
     line-height: 9.5vw;
 }
-.closing-text .far{
+.closing-text .fas{
     content: '\f118';
-    font-family:FontAwesome;
-    color:black;
-    background-color: white;
+    font-family:'FontAwesome';
+    text-rendering: optimizeLegibility;
     font-size: 4vw;
 }
 
