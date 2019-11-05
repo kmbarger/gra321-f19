@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 6 - HTML</title>
+        <meta name="viewport" content="width=device-width">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <h1>Charlie's Cafe</h1>
+            <img src="img/mustache.png">
+        </div>
+        
+        <div class="intro-text">
+            <h1>Charlie's Café, one of Sun Devil Dining’s local restaurant partners, brings the taste of Europe to ASU</h1>
+        </div>
+        
+        <div class="wrapper">
+          <div class="box a"><img src="img/charliesimg-1.png"></div>
+          <div class="box b"><img src="img/charliesimg-2.png"></div>
+          <div class="box c"><img src="img/charliesimg-3.png"></div>
+          <div class="box d"><img src="img/charliesimg-4.png"></div>
+          <div class="box e"><img src="img/charliesimg-5.png"></div>
+          <div class="box f"><img src="img/charliesimg-6.png"></div>
+        </div>
+        
+        <div class="hot-drinks">
+            <div class="toggle-box-region">       
+                <input class="toggle-box" id="toggleId-1" type="checkbox">
+                <label for="toggleId-1" class="fas fa-plus">Hot Drinks</label>
+                <div class="toggle-box-content">
+                    <ul>
+                        <li>Drip Coffee $1.95 $2.25 $2.50</li>
+                        <li>Espresso $1.95 $2.50 $3.00</li>
+                        <li>Macchiato $2.00 $2.50 $3.25</li>
+                        <li>Americano $2.00 $2.50 $3.25</li>
+                        <li>Cappuccino $2.95 $3.50 $4.25</li>
+                        <li>Caffe Latte $3.25 $4.00 $4.75</li>
+                        <li>Hot Chocolate $2.75 $3.25 $3.95</li>
+                        <li>Chai Latte $3.25 $3.95 $4.25</li>
+                        <li>Organic Tea $2.50</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="iced-drinks">
+            <div class="toggle-box-region">       
+                <input class="toggle-box" id="toggleId-2" type="checkbox">
+                <label for="toggleId-2" class="fas fa-plus">Iced Drinks</label>
+                <div class="toggle-box-content">
+                    <ul>
+                        <li>Coffee $2.70</li>
+                        <li>Americano $2.00 $2.50 $3.25</li>
+                        <li>Latte $3.25 $3.75 $4.50</li>
+                        <li>Mocha $3.25 $3.95 $4.25</li>
+                        <li>Chai $3.25 $3.95 $4.25</li>
+                        <li>Mocha Frappe $4.25 $5.00</li>
+                        <li>Thai Cappuccino $4.00</li>
+                        <li>Thai Tea $3.25</li>
+                        <li>Iced Tea $2.50 $2.75</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="additions">
+            <div class="toggle-box-region">       
+                <input class="toggle-box" id="toggleId-3" type="checkbox">
+                <label for="toggleId-3" class="fas fa-plus">Additions</label>
+                <div class="toggle-box-content">
+                    <ul>
+                        <li>Almond Milk $0.75</li>
+                        <li>Soy Milk $0.75</li>
+                        <li>Flax Milk $0.75</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="wrapper">
+          <div class="box a"><img src="img/charliesimg-7.png"></div>
+          <div class="box b"><img src="img/charliesimg-8.png"></div>
+          <div class="box c"><img src="img/charliesimg-9.png"></div>
+          <div class="box d"><img src="img/charliesimg-10.png"></div>
+          <div class="box e"><img src="img/charliesimg-11.png"></div>
+          <div class="box f"><img src="img/charliesimg-12.png"></div>
+        </div>
+        
+        <div class="paninis">
+            <div class="toggle-box-region">       
+                <input class="toggle-box" id="toggleId-4" type="checkbox">
+                <label for="toggleId-4" class="fas fa-plus">Sandwiches</label>
+                <div class="toggle-box-content">
+                    <ul>
+                        <li id="panini">Italiano $6.95 <p>Grilled baguette with prosciutto, mozzarella, sliced tomato, basil pesto, and a touch of balsamic vinegar</p></li>
+                        <li id="panini">Seville $6.95 <p>Grilled baguette with Spanish chorizo, mozzarella, sliced tomato, roasted red pepper, sun dried tomato pesto and a touch of balsamic vinegar</p></li>
+                        <li id="panini">Milano $6.95 <p>Grilled baguette with prosciutto, salami, ham, mozzarella, sliced tomato, pepperoncini, basil pesto, and a touch of balsamic vinegar</p></li>
+                        <li id="panini">Caprese $6.95 <p>Grilled baguette with mozzarella, sliced tomato, fresh basil (when available), basil pesto, and a touch of balsamic vinegar</p></li>
+                        <li id="panini">Turkey Florentine $6.95 <p>Sliced turkey, tomato, spinach, mozzarella cheese with basil pesto and a drizzle of balsamic on baguette</p></li>
+                        <li id="panini">Vegitarian Panini $6.95 <p>Grilled ciabatta bread with mozzarella, feta cheese, roasted red peppers, marinated artichoke, tomato, red onion, and finished with basil pesto</p></li>
+                        <li id="panini">Mediterranean Chicken $6.95 <p>Grilled ciabatta bread with spiced chicken breast, mozzarella, roasted red peppers, sliced tomato and sun dried tomato pesto</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="pastries">
+            <div class="toggle-box-region">       
+                <input class="toggle-box" id="toggleId-5" type="checkbox">
+                <label for="toggleId-5" class="fas fa-plus">Pastries</label>
+                <div class="toggle-box-content">
+                    <ul>
+                        <li>Chocolate Croissant</li>
+                        <li>Strawberry Croissant</li>
+                        <li>Ham and Swiss Croissant</li>
+                        <li>Chocolate Muffin</li>
+                        <li>Blueberry Muffin</li>
+                        <li>Whole Wheat Bagel</li>
+                        <li>Blueberry Bagel</li>
+                        <li>Cinnamon Raisin Bagel</li>
+                        <li>Jalapeno Asiago Bagel</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="rice-bowl">
+            <div class="toggle-box-region">       
+                <input class="toggle-box" id="toggleId-6" type="checkbox">
+                <label for="toggleId-6" class="fas fa-plus">Rice Bowl</label>
+                <div class="toggle-box-content">
+                    <ul>
+                        <li>Chicken Tikka</li>
+                        <li>Vegetable Korma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="dessert">
+            <div class="toggle-box-region">       
+                <input class="toggle-box" id="toggleId-7" type="checkbox">
+                <label for="toggleId-7" class="fas fa-plus">Desserts</label>
+                <div class="toggle-box-content">
+                    <ul>
+                        <li>Chocolate Chip Cookie</li>
+                        <li>Brownie</li>
+                        <li>Rice Krispy Treat</li>
+                        <li>Lemon Bar</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="snacks">
+            <div class="toggle-box-region">       
+                <input class="toggle-box" id="toggleId-8" type="checkbox">
+                <label for="toggleId-8" class="fas fa-plus">Snacks</label>
+                <div class="toggle-box-content">
+                    <ul>
+                        <li>Granola Bar</li>
+                        <li>Chips</li>
+                        <li>Apple</li>
+                        <li>Banana</li>
+                        <li>Yogurt</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="intro-text">
+            <h1>We have three locations on ASU campus - Hayden Library, Bio Design B Building and the College of Design</h1>
+        </div>
+        
+        <div class="hours">
+            <div class="toggle-box-region">       
+                <input class="toggle-box" id="toggleId-9" type="checkbox">
+                <label for="toggleId-9" class="fas fa-plus">Hours</label>
+                <div class="toggle-box-content">
+                    <ul>
+                        <li>Monday - Thursday: 7AM - 7PM</li>
+                        <li>Fridays: 7AM - 4PM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="closing-text">
+            <h1>Please come visit us</h1>
+            <i class="far fa-smile"></i>
+        </div>
+        
+        <!--
+        <div class="footer">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fas fa-location-arrow"></i>
+        </div>
+        -->
+        
+        <!--
+        <div class="drink-menu">
+            <h2>What to Drink</h2>
+            <hr/>
+            <h3>Hot Drinks</h3>
+            <ul>
+                <li>Drip Coffee $1.95 $2.25 $2.50</li>
+                <li>Espresso $1.95 $2.50 $3.00</li>
+                <li>Macchiato $2.00 $2.50 $3.25</li>
+                <li>Americano $2.00 $2.50 $3.25</li>
+                <li>Cappuccino $2.95 $3.50 $4.25</li>
+                <li>Caffe Latte $3.25 $4.00 $4.75</li>
+                <li>Hot Chocolate $2.75 $3.25 $3.95</li>
+                <li>Chai Latte $3.25 $3.95 $4.25</li>
+                <li>Organic Tea $2.50
+                    <ul>
+                        <li>Gunpowder Green</li>
+                        <li>Aged Earl Grey</li>
+                        <li>Chamomile</li>
+                        <li>Jasmine Green</li>
+                        <li>Golden Chai</li>
+                        <li>Mint (Herbal)</li>
+                        <li>Mate Lemon</li>
+                        <li>Breakfast Blend</li>
+                        <li>Silver and Spice</li>
+                        <li>Rasberry Pomegranate</li>
+                        <li>Lemon Ginger</li>
+                    </ul>
+                </li>
+            </ul>
+            
+        <div class="contact-page">
+            <hr/>
+            <h2>Contact</h2>
+            <hr/>
+            <ul>
+                <li><a>Facebook</a></li>
+                <li><a>Instagram</a></li>
+                <li><a>Google Maps</a></li>
+            </ul>
+        </div>
+        -->
+    </body>
+</html>
