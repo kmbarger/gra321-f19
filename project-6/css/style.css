@@ -35,13 +35,6 @@ html, body{
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-.exp-text{
-    font-size: 4vw;
-    padding-top: 2vw;
-    padding-left: 3vw;
-    line-height: 9.5vw;
-}
-
 /*****IMAGE GRID*****/
 
 .wrapper {
@@ -131,6 +124,16 @@ html, body{
     font-weight: normal;
 }
 
+
+/*****INFO TEXT*****/
+
+.exp-text{
+    font-size: 4vw;
+    padding-top: 2vw;
+    padding-left: 3vw;
+    line-height: 9.5vw;
+}
+
 .closing-text{
     font-size: 4vw;
     padding-top: 2vw;
@@ -143,6 +146,28 @@ html, body{
     font-family:'FontAwesome';
     text-rendering: optimizeLegibility;
     font-size: 4vw;
+}
+
+/*****FOOTER*****/
+
+.footer {
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-gap: 0.5vw;
+    justify-content: center;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.social {
+    padding: 10px;
+    font-size: 150%;
+}
+.social img{
+    width: 10vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -159,7 +184,7 @@ html, body{
   and (-webkit-min-device-pixel-ratio: 2) { 
       .intro-text{
         font-size: 4vw;
-        padding-top: 5vw;
+        padding-top: 7vw;
         padding-left: 3vw;
         line-height: 9.5vw;
       }
@@ -178,7 +203,7 @@ html, body{
       }
       
       li{
-        font-size: 4vw;
+        font-size: 6vw;
         line-height: 1.6;
         list-style-type: none;
         padding-left: 8vw;
